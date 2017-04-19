@@ -49,6 +49,11 @@ msg.channel.fetchMessages({
   else if(msg.content === prefix + 'whoisagoodnumo') {
     msg.reply('0110101 I am, I am 01101010 Beep Boop Bop')
   }
+  
+ else if (message.content === 'what is my avatar') {
+    // send the user's avatar URL
+    message.reply(message.author.avatarURL);
+  }
 
 });
 Numo.login(config.token);
