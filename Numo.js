@@ -50,9 +50,9 @@ msg.channel.fetchMessages({
     msg.reply('0110101 I am, I am 01101010 Beep Boop Bop')
   }
   
- else if (message.content === 'what is my avatar') {
+ else if (msg.content === prefix + 'whatismyavatar') {
     // send the user's avatar URL
-    message.reply(message.author.avatarURL);
+    msg.reply(msg.author.avatarURL);
   }
 
 });
