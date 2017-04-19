@@ -1,2 +1,2 @@
 # Numo
-A discord bot used to make your server feel like home
+Starter commands: n!help, n!info , n!support
