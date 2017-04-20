@@ -26,7 +26,7 @@ else if(msg.content === prefix + 'support') {
       msg.reply('I am a bot created by Javax');
   }
   else if (msg.content === prefix + 'commands') {
-      msg.reply('commands: n!math, n!happyspam, n!prune, n!ping, n!prune');
+      msg.reply('commands: n!math, n!happyspam, n!prune, n!ping, n!prune, n!whatismyavatar');
   }
   else if (msg.content === prefix + 'happyspam') {
       msg.reply(':smiley:' + ':smiley:' + ':smiley:' + ':smiley:' + ':smiley:' + ':smiley:' + ':smiley:' + ':smiley:' + ':smiley:' + ':smiley:' );
